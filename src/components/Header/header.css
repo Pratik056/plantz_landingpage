@@ -1,0 +1,39 @@
+.app__header{
+    font-family: var(--font-family);
+    height: 980px;
+}
+
+.app__header-headtext{
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.app__header-headtext h1{
+    text-transform: uppercase;
+    color: var(--color-logo);
+    font-size: 82px;
+}
+
+.app__header-headtext p{
+    color: var(--color-head);
+    font-size: 24px;
+}
+
+@media screen and (max-width:750px) {
+    .app__header-headtext{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        text-align: end;
+    }
+
+    .app__header-headtext h1{
+        font-size: 64px;
+    }
+}
+
+@media screen and (max-width:450px){
+    .app__header-headtext h1{
+        font-size: 54px;
+    }
+}

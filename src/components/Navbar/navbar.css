@@ -1,0 +1,88 @@
+.app__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-family);
+    padding: 1rem 4rem;
+}
+
+.app__navbar-logo{
+    flex: 1;
+}
+
+.app__navbar-logo h2{
+    color: var(--color-head);
+    font-size: 26px;
+}
+
+.app__navbar-links{
+    flex: 0.5;
+}
+
+.app__navbar-links ul{
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: first baseline;
+}
+
+.app__navbar li{
+    text-transform: uppercase;
+    color: var(--color-head);
+    font-weight: 800;
+}
+
+.app__navbar li:hover{
+    color: black;
+}
+
+.app__navbar-dropdown{
+    display: none;
+}
+
+.app__navbar-dropdown_overlay{
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 40%;
+    transition: 0.5s ease;
+    z-index: 0;
+}
+
+.app__navbar-dropdown_overlay li{
+    font-size: 24px;
+    list-style: none;
+}
+
+.app__navbar-dropdown-button{
+    position: relative;
+    z-index: 2;
+}
+
+.app__navbar-dropdown li{
+    line-height: 50px;
+}
+
+@media screen and (max-width:1150px) {
+    .app__navbar{
+        padding: 1rem 2rem;
+    }
+
+    .app__navbar-links{
+        display: none;
+    }
+
+    .app__navbar-dropdown{
+        display: block;
+    }
+}
+
+

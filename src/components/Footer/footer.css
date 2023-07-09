@@ -1,0 +1,49 @@
+.app__footer{
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-family);
+}
+
+.app__footer-icons{
+    font-size: 30px;
+    color: var(--color-logo);
+    cursor: pointer;
+}
+
+.Instagram, .Twitter, .Facebook{
+    padding-right: 10px;
+    transition: 0.5s ease;
+}
+
+.Instagram:hover,
+.Twitter:hover,
+.Facebook:hover{
+    transform: scale(1.12);
+}
+
+.app__footer-links{
+    display: flex;
+    text-transform: capitalize;
+}
+
+.app__footer-links a{
+    padding-left: 4rem;
+    font-size: 24px;
+}
+
+@media screen and (max-width:450px) {
+    .app__footer{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .app__footer-links{
+        padding: 1rem 0;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .app__footer-links a{
+        padding: 0;
+    }
+}
