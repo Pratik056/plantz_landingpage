@@ -52,7 +52,7 @@
     left: 0;
     transform: translate(-50%, -50%);
     width: 100%;
-    height: 40%;
+    height: 50%;
     transition: 0.5s ease;
     z-index: 0;
 }
@@ -82,6 +82,12 @@
 
     .app__navbar-dropdown{
         display: block;
+    }
+}
+
+@media screen and (max-width:450px){
+    .app__navbar{
+        padding: 1rem 0.5rem;
     }
 }
 

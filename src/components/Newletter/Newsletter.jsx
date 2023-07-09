@@ -4,7 +4,7 @@ import './newsletter.css';
 
 const Newsletter = () => {
   return (
-    <div className='app__newsletter section__padding '>
+    <div className='app__newsletter section__padding ' id='newsletter'>
       <div className="app__newsletter-content">
         <h2>subscribe</h2>
         <h3>Sign-up to our newsletter</h3>

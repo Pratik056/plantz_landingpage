@@ -9,7 +9,7 @@ import './articles.css';
 
 const Articles = () => {
   return (
-    <div className='app__articles section__padding'>
+    <div className='app__articles section__padding' id='articles'>
       <div className="app__articles-headtext">
         <h2>Latest Articles</h2>
         <div />

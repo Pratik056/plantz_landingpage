@@ -15,9 +15,9 @@ const Navbar = () => {
 
       <div className="app__navbar-links">
         <ul>
-          <li> <a href="#about">about</a></li>
+          <li> <a href="#aboutus">about</a></li>
           <li> <a href="#articles">articles</a></li>
-          <li> <button type="button" className='custom__button'>subscribe</button> </li>
+          <li> <button type="button" className='custom__button'><a href="#newsletter">subscribe </a></button> </li>
         </ul>
       </div>
 
@@ -33,7 +33,7 @@ const Navbar = () => {
         {toggleMenu && (
           <div className="app__navbar-dropdown_overlay scale-up-ver-top">
           <ul>
-            <li> <a href="#about">about</a></li>
+            <li> <a href="#aboutus">about</a></li>
             <li> <a href="#articles">articles</a></li>
             <li> <a href="#newsletter">subscribe </a></li>
           </ul>

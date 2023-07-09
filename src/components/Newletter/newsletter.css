@@ -22,8 +22,10 @@
 }
 
 .app__newsletter-content input{
+    flex: 1;
     font-family: var(--font-family);
-    padding: 1.5rem 25% 1.5rem 1.5rem;
+    padding: 1.5rem; 
+    width: 80%;
     margin-bottom: 1rem;
     background: #e6e7e5;
     outline: none;
@@ -32,6 +34,6 @@
 
 @media screen and (max-width:750px) {
     .app__newsletter-content input{
-        padding: 1.5rem 50% 1.5rem 1.5rem;
+        width: 100%;
     }
 }

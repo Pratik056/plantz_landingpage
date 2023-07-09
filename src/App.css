@@ -7,9 +7,9 @@
 }
 
 .background__image{
-  background-image: url("C:\Users\tamrakar\Desktop\projects\herbal-health_landingpage\src\assets\hero_page.jpg");
+  background-image: url("C:\Users\tamrakar\Desktop\projects\herbal-health_landingpage\src\assets\hero_page1.jpg");
   background-repeat:  no-repeat;
-  background-position: center top ;
+  background-position: left top ;
   background-size: cover;
   width: auto;
   max-height: 815px;
@@ -73,7 +73,11 @@
   }
 }
 
-
+@media screen and (min-width:1800px){
+  .background__image{
+    background-position: left center;
+  }
+}
 
 @media screen and (max-width:1050px) {
   .section__padding{

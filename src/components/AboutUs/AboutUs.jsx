@@ -5,7 +5,7 @@ import './aboutus.css';
 
 const AboutUs = () => {
   return (
-    <div className='app__aboutus'>
+    <div className='app__aboutus' id='aboutus'>
       <div className="app__aboutus-img">
         <img src={aboutus} alt="aboutus-img" />
       </div>
